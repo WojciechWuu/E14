@@ -1,0 +1,107 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="css/e14-sekcje.css">
+</head>
+<body>
+    <div id="container">
+			<section id="logo">
+	      <div id="logoDiv">
+	        <h1>LOGO</h1>
+	      </div>
+			</section>
+
+			<section id="naglowek">
+	        <div id="naglowekLewyDiv" >
+						<h1>NAGŁÓWEK LEWY</h1>
+					</div>
+	        <div id="naglowekPrawyDiv">
+						<h1>NAGŁÓWEK PRAWY</h1>
+					</div>
+			</section>
+
+			<section id="menu">
+	      <div id="menuDiv">
+	        <h1>MENU</h1>
+					<a href="#">LINK1</a>
+					<a href="#">LINK2</a>
+					<a href="#">LINK3</a>
+					<a href="#">LINK4</a>
+	      </div>
+			</section>
+
+			<section id="tresc">
+					<div id="trescLewaDiv">
+						<h1>LEWA</h1>
+						<a href="#">LINK1</a>
+						<a href="#">LINK2</a>
+						<a href="#">LINK3</a>
+						<a href="#">LINK4</a>
+					</div>
+					<div id="trescSrodekDiv">
+						<h1>ŚRODEK</h1>
+						<div id="formularz">
+							<form name="formularz">
+									Formularz:<br>
+									<p>Imię : 		<input type="text" id="imie" 			name="imie" 				class="inputs"></p>
+									<p>Nazwisko : <input type="text" id="nazwisko" 	nazwisko="nazwisko" class="inputs"></p>
+									<p>Wiek : 		<input type="text" id="wiek" 			name="wiek" 				class="inputs"></p>
+
+									<p>Płeć
+										<select id="plec" name="plec">
+		                  <option value="M">Męzczyzna</option>
+		                  <option value="K">Kobieta</option>
+		              	</select>
+									</p>
+
+									<p>Hasło1 :<input type="password" id="password1" name="password1" class="inputs"></p>
+									<p>Hasło2 :<input type="password" id="password2" name="password2" class="inputs"></p>
+
+		            	<p>Gracz
+									<br><input type="radio" name="gracz" value="beginner" checked>Początkujący
+		              <br><input type="radio" name="gracz" value="medium">Zaawansowany
+		              <br><input type="radio" name="gracz" value="expert">Expert
+									</p>
+
+		              <p>
+										<input id="zgoda" type="checkbox" name="zgoda" value="jest" checked  />
+										Zgoda na przetwarzanie danych osobowych
+									</p>
+
+		              <p>Liczba X <input id="x" name="x" type="text" class="inputs"></p>
+		              <p>Liczba Y <input id="y" name="y" type="text" class="inputs"></p>
+									<p>Liczba Z <input id="z" name="z" type="text" class="inputs"></p>
+
+									<p><textarea id="tekst" name="tekst" rows="4" cols="40">Komentarz!</textarea></p>
+
+									<p id="przycisk" onclick="sprawdz()">SPRAWDŹ</p>
+								</form>
+
+							</div>
+
+					</div>
+					<div id="trescPrawaDiv">
+						<h1>PRAWA</h1>
+						<p id="wyniki" name="wyniki" ></p>
+					</div>
+			</section>
+
+			<section id="stopka1">
+	        <div id="stopka1LewyDiv" >
+						<h1>STOPKA LEWA</h1>
+					</div>
+	        <div id="stopka1PrawyDiv">
+						<h1>STOPKA PRAWA</h1>
+					</div>
+			</section>
+
+			<section id="stopka2">
+	        <div id="stopka2Div" >
+						<h1>INFO</h1>
+					</div>
+	    </section>
+
+    </div>
+  <script src="js/e14-sekcje.js"></script>
+</body>
+</html>
